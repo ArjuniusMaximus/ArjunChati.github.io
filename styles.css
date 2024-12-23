@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: right; /*horizontal*/
+    align-items: center /*vertical*/
+    background-color: darksalmon;
+
+}
+
+
+nav ul {
+    list-style-type: none; /*remove the bullet points*/
+    padding: 0px;
+    margin: 20px;
+    
+    display: flex; /*makes the nav list horizontal*/
+    justify-content: right;
+}
+
+nav li{
+    margin: 0 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:lightgray;
+}
+
+nav a:hover {
+    background-color: gray;
+    color: white;
+}
